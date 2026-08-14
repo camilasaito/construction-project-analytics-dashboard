@@ -12,3 +12,10 @@ AND [Due Date] < TODAY()
 THEN "Overdue"
 ELSE "Not Overdue"
 END
+
+## Days to Close
+
+Used to calculate how many days it took to close an item.
+
+```tableau
+DATEDIFF('day', [Created Date], [Closed Date])
