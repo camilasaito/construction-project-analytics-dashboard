@@ -22,6 +22,16 @@ Used to calculate how many days it took to close an item.
 DATEDIFF('day', [Created Date], [Closed Date])
 ```
 
+## Average Days to Close
+
+Used to calculate the average number of days required to close completed items.
+
+```tableau
+AVG(
+    DATEDIFF('day', [Created Date], [Closed Date])
+)
+```
+
 ## Days Since Last Inspection
 
 Used to calculate the number of days since the most recent inspection.
