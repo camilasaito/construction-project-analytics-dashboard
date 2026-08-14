@@ -12,6 +12,3 @@ AND [Due Date] < TODAY()
 THEN "Overdue"
 ELSE "Not Overdue"
 END
-
-
-
