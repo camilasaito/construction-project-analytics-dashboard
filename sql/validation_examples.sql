@@ -1,9 +1,9 @@
--- SQL Validation Examples
--- Portfolio version of queries used during the capstone project.
--- All data and field names have been simplified for confidentiality.
+-- Some SQL examples I used during the capstone
+-- I used these queries mainly to check if the numbers in Tableau were correct.
+-- The names and data were simplified for this portfolio.
 
 --------------------------------------------------
--- 1. Count Open RFIs
+-- 1. Checking how many RFIs were still open
 --------------------------------------------------
 
 SELECT
@@ -15,7 +15,8 @@ GROUP BY project_id;
 
 
 --------------------------------------------------
--- 2. Identify Overdue RFIs
+-- 2. Checking overdue RFIs
+-- I used this to confirm the overdue logic before using it in Tableau
 --------------------------------------------------
 
 SELECT
@@ -29,7 +30,8 @@ WHERE status = 'Open'
 
 
 --------------------------------------------------
--- 3. Average Days to Close
+-- 3. Checking average days to close
+-- This helped me compare the SQL result with the KPI in Tableau
 --------------------------------------------------
 
 SELECT
@@ -47,7 +49,8 @@ GROUP BY project_id;
 
 
 --------------------------------------------------
--- 4. Most Recent Inspection Date
+-- 4. Checking the most recent inspection
+-- I used this date to validate the Days Since Last Inspection calculation
 --------------------------------------------------
 
 SELECT
