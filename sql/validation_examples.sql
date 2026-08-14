@@ -16,7 +16,6 @@ GROUP BY project_id;
 
 --------------------------------------------------
 -- 2. Checking overdue RFIs
--- I used this to confirm the overdue logic before using it in Tableau
 --------------------------------------------------
 
 SELECT
@@ -31,7 +30,6 @@ WHERE status = 'Open'
 
 --------------------------------------------------
 -- 3. Checking average days to close
--- This helped me compare the SQL result with the KPI in Tableau
 --------------------------------------------------
 
 SELECT
@@ -50,7 +48,6 @@ GROUP BY project_id;
 
 --------------------------------------------------
 -- 4. Checking the most recent inspection
--- I used this date to validate the Days Since Last Inspection calculation
 --------------------------------------------------
 
 SELECT
