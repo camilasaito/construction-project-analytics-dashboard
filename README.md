@@ -27,7 +27,7 @@ My main contributions were:
 
 * Tableau
 * SQL
-* Python
+* Power BI
 
 ### Skills
 
