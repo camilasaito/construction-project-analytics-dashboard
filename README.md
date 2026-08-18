@@ -6,6 +6,8 @@ This capstone project focused on building a Tableau dashboard for construction p
 
 The project involved exploring read-only reporting databases, validating KPI logic with SQL, and recreating the required calculations in Tableau.
 
+---
+
 ## My Role
 
 My main contributions were:
@@ -15,37 +17,51 @@ My main contributions were:
 * Building the dashboard in Tableau
 * Creating and testing Tableau calculated fields
 * Testing filters and dashboard results
-* Participating in meetings and applying stakeholder feedback
+* Participating in stakeholder meetings and applying feedback
 
-## Key Skills & Tools
+---
 
-* **Tableau** – dashboard development and calculated fields
-  [`tableau/`](tableau/)
+## Skills & Tools
 
-* **SQL** – data exploration and KPI validation
-  [`sql/`](sql/)
+### Tools
 
-* **Data visualization** – building project-level KPI views
-  [`images/`](images/)
+* Tableau
+* SQL
+* Python
 
-* **Synthetic data** – creating safe portfolio datasets
-  [`data/`](data/)
+### Skills
+
+* Dashboard development
+* KPI validation
+* Data validation
+* Data visualization
+* Tableau calculated fields
+* SQL data exploration
+* Working with multiple data sources
+* Synthetic data creation
+
+---
 
 ## Project Highlights
 
 * Built a Tableau dashboard for project-level construction reporting
-* Recreated and validated KPI calculations
+* Recreated KPI calculations using Tableau calculated fields
+* Used SQL to validate dashboard results
 * Worked with operational and safety data from separate sources
 * Tested filters and calculations before final delivery
-* Created synthetic data so the project could be shared publicly
+
+
+---
 
 ## How to Navigate the Repository
 
 * [`data/`](data/) – synthetic datasets
 * [`images/`](images/) – dashboard images
 * [`sql/`](sql/) – SQL validation examples
-* [`tableau/`](tableau/) – Tableau calculations and files
+* [`tableau/`](tableau/) – Tableau calculations and related files
+
+---
 
 ## Privacy Note
 
-This repository does not include confidential company data, credentials, or restricted company files. The public datasets are synthetic and were created only for portfolio use.
+This repository does not include confidential company data, credentials, or restricted company files. The datasets included here are synthetic and were created only for portfolio use.
