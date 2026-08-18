@@ -1,4 +1,4 @@
-# Construction Project Analytics Dashboard
+# Construction Project Dashboard
 
 ## About the Project
 
