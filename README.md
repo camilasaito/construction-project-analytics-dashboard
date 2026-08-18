@@ -25,8 +25,6 @@ My main contributions were:
 * **SQL** – data exploration and KPI validation
   [`sql/`](sql/)
 
-* **Data validation** – comparing Tableau and SQL results
-
 * **Data visualization** – building project-level KPI views
   [`images/`](images/)
 
@@ -41,12 +39,6 @@ My main contributions were:
 * Tested filters and calculations before final delivery
 * Created synthetic data so the project could be shared publicly
 
-## Dashboard Preview
-
-This portfolio version uses synthetic data and does not include client information.
-
-![Construction Project Analytics Dashboard](images/YOUR-IMAGE-NAME.png)
-
 ## How to Navigate the Repository
 
 * [`data/`](data/) – synthetic datasets
@@ -56,4 +48,4 @@ This portfolio version uses synthetic data and does not include client informati
 
 ## Privacy Note
 
-This repository does not include confidential client data, credentials, or restricted company files. The public datasets are synthetic and were created only for portfolio use.
+This repository does not include confidential company data, credentials, or restricted company files. The public datasets are synthetic and were created only for portfolio use.
